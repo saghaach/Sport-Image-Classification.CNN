@@ -1,0 +1,48 @@
+{
+  "date_execution": "2026-11-13T23:02:43.484554",
+  "device": "CPU",
+  "epochs_realises": 9,
+  "meilleure_val_accuracy": 0.6666666865348816,
+  "test_accuracy": 0.8333333333333334,
+  "test_precision": 0.8571428571428571,
+  "test_recall": 0.8333333333333334,
+  "test_f1": 0.8307692307692308,
+  "rapport_par_classe": {
+    "basketball": {
+      "precision": 1.0,
+      "recall": 0.6667,
+      "f1-score": 0.8,
+      "support": 6
+    },
+    "football": {
+      "precision": 0.8571,
+      "recall": 1.0,
+      "f1-score": 0.9231,
+      "support": 6
+    },
+    "tennis": {
+      "precision": 0.7143,
+      "recall": 0.8333,
+      "f1-score": 0.7692,
+      "support": 6
+    }
+  },
+  "dataset": {
+    "train": {
+      "basketball": 24,
+      "football": 24,
+      "tennis": 24
+    },
+    "validation": {
+      "basketball": 5,
+      "football": 5,
+      "tennis": 5
+    },
+    "test": {
+      "basketball": 6,
+      "football": 6,
+      "tennis": 6
+    },
+    "total": 105
+  }
+}
